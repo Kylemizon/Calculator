@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULTOR</title>
+    <script src="Cal.js"></script>
+</head>
+<body>
+    <p>
+        ADDITION
+        <input id="add1" type="number">
+        +
+        <input id="add2" type="number">
+        =
+        <input id="sum" type="number"> 
+        <button onclick="let result = adde(document.getElementById('add1').value,
+                                           document.getElementById('add2').value);
+                                           document.getElementById('sum').value=result;">ADD</button>
+    </p>
+    <br><br>
+    <p>
+        SUBTRUCTION
+        <input id="sub1" type="number">
+        -
+        <input id="sub2" type="number">
+        =
+        <input id="sum1" type="number">
+        <button onclick="sub()">SUB</button>
+    </p>
+    <br><br>
+    <p>
+        MULTIPRICATION
+        <input id="mul1" type="number">
+        *
+        <input id="mul2" type="number">
+        =
+        <input id="sum2" type="number">
+        <button onclick="multi()">MULTIPLY</button>
+    </p>
+    <br><br>
+    <p>
+        DIVISION
+        <input id="div1" type="number">
+        /
+        <input id="div2" type="number">
+        =
+        <input id="sum3" type="number">
+        <button onclick="div()">DIVIDE</button>
+    </p>
+</body>
+</html>
